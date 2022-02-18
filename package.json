@@ -1,0 +1,30 @@
+{
+  "name": "smart-contract",
+  "version": "1.0.0",
+  "description": "Solidity smart contract",
+  "scripts": {
+    "build": "hardhat compile",
+    "test:light": "hardhat test",
+    "test": "hardhat coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybriz/smart-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ybriz/smart-contract/issues"
+  },
+  "homepage": "https://github.com/ybriz/smart-contract#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.8.4",
+    "solidity-coverage": "^0.7.20"
+  }
+}
